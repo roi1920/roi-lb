@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 80px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.left-group {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

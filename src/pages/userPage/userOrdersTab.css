@@ -1,0 +1,24 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.returnBtn {
+    background-color: red;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+}
